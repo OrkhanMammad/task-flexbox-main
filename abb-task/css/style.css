@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    padding: 0 4rem;
+}
+header .header_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: center;
+}
+.header_top a{
+    color: #666666;
+    font-size: 16px;
+    margin-right: 24px;
+}
+.header_top span{
+    font-size: 16px;
+    color: #666666;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.header_top .btn{
+    color: #0056c1;
+    padding: 10px 20px;
+    border: 1px solid #0056c1;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.header_bottom{
+}
+.header_bottom .logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_bottom .logo_img a{
+    margin-right: 20px;
+    color: #262626;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header_bottom .logo_img{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.header_bottom .logo_img img{
+    width: 150%;
+}
+.header_bottom .logo_menu{
+    margin-left: 9rem;
+}
+.header_bottom .online_bank a{
+    color: #0056c1;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header_bottom .menu{
+    margin-top: 3rem;
+}
+.header_bottom .menu a{
+    color: #262626;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+@media (max-width:576px) {
+    .container{
+        padding: 0 2rem;
+    }
+    .header_top{
+        width: 100%;
+    }
+    .header_bottom{
+        max-width: 576px;
+
+    }
+    .menu{
+        display: none;
+    }
+    .clear{
+        display: none;
+    }
+    .header_bottom .logo{
+        width: 100%;
+    }
+    .header_bottom .logo_img{
+        width: 30%;
+    }
+    .header_bottom .online_bank{
+        width: 10%;
+    }
+    .header_bottom .logo_menu{
+        display: none;
+    }
+    
+    
+}
+@media (min-width:576px) {
+    .header_top .up{
+        display: none;
+    }
+    
+}
